@@ -15,3 +15,14 @@ go build lissajous.go
 ```
  ./lissajous > out.gif
 ```
+
+```
+go build fetch.go
+```
+```
+./fetch http://gopl.io
+```
+
+```
+./fetch http://bad.gopl.io
+```
